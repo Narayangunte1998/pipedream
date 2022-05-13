@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overview - Microsoft Advertising</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="Microsoft_logo.png" />
+  </head>
+
+  <body>
+    <nav class="navbar mynav">
+      <img class="navbar-" src="Microsoft-logo.png" alt="" />
+      <a class="navbar-brand" href="#">Advertising</a>
+      <a href="#">Overview</a>
+      <a href="#">Benefits</a>
+      <a href="#">How It Work</a>
+      <a href="#">Cost</a>
+      <a href="#">Import</a>
+      <a href="#">Success Stories</a>
+      <button class="btn mybtn">Sign Up</button>
+      <a class="margin-lef" href="#">All Microsoft</a>
+      <p><i class="arrow up"></i></p>
+      <a class="myanchor" href="#">Sign in</a>
+    </nav>
+    <!-- <img class="" src="women-searching.jpg" alt="" /> -->
+
+    <div class="bg-img">
+      <div class="img-content">
+        <h2>You run your business. We'll help find your customers.</h2>
+        <p>
+          Microsoft Advertising can connect you with millions of searchers not
+          using Google. Get $100 in search advertising when you spend $25 in
+          Microsoft Advertising.
+        </p>
+        <button class="btn start-">Start now</button>
+        <br />
+        <a href="#" class="offer">†offer details</a>
+      </div>
+    </div>
+
+    <div class="customer-support">
+      <img class="money" src="money.png" alt="" />
+      <h3>You're missing out on:</h3>
+      <li>
+        Reach customers using search and native ads without any additional
+        effort
+      </li>
+      <li>
+        Easy to get started – import your campaigns from Google or Facebook
+      </li>
+      <li>Connect with people ready to engage and transact</li>
+      <li>
+        Intelligent automation help get better performance out of your campaigns
+      </li>
+    </div>
+    <div class="search-network">
+      <h2>The Microsoft Search Network audience</h2>
+      <p>
+        The Microsoft Search Network is a part of your customers' lives,
+        powering the devices, apps and sites they use every day and meeting them
+        in the moments that matter most. Find out more about the Microsoft
+        Search Network audience in the U.S. and how users are searching from
+        their desktop computers below.1
+      </p>
+      <div class="boxes">
+        <div class="box-1">
+          <h4>118 MILLION</h4>
+          <p>unique desktop searchers on the Microsoft Search Network</p>
+        </div>
+        <div class="box-2">
+          <h4>47 MILLION</h4>
+          <p>Desktop Searchers not reached on Google</p>
+        </div>
+        <div class="box-3">
+          <h4>7.2 BILLION</h4>
+          <p>monthly desktop searches on the Microsoft Search Network</p>
+        </div>
+        <div class="box-4">
+          <h4>37.5%</h4>
+          <p>share of the U.S. desktop search market</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-sign">
+      <div class="Sign-up">
+        <h3>Get started today</h3>
+        <p>
+          Start taking advantage of Microsoft Advertising to grow your business.
+        </p>
+      </div>
+      <div class="sign">
+        <h3>Sign up</h3>
+        <a href="#">Get Started With Microsoft Advertising</a>
+        <p>Signing up is always free</p>
+      </div>
+    </div>
+    <footer class="footer-box nav">
+      <li><a class="nav-item-1">English (United States)</a></li>
+      <li><a class="nav-item-">Explore the main site</a></li>
+      <li><a class="nav-item-">Privacy & cookies</a></li>
+      <li><a class="nav-item-">Legal</a></li>
+      <li>© Microsoft 2022</li>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS
+
+
+a{
+    color: white;
+    font-size: 13px;
+    padding: -20px;
+    margin: -10px;
+    text-decoration: none;
+}
+.mynav{
+    background: rgb(0, 0, 0);
+    height: 54px;
+}
+a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+.btn   {
+    color: white;
+    background-color: #0078d4;
+}
+.btn:hover{
+    color: white;
+    border-bottom:  2px white;
+    
+  
+}
+.margin-lef{
+    margin:0 0 0 150px ;
+}
+.mybtn{
+    border: 1px solid;
+    border-radius: 3px;
+    height: 31px;
+    margin: 1px 5px;
+    padding: 0px;
+    text-align: center;
+    width: 70px;
+    font-size: 13px;
+}
+/* .navbar-brand:hover{
+    text-decoration: underline;
+
+} */
+.myanchor {
+    margin-right: 50px;
+}
+.navbar-{
+    margin-left: 50px;
+    margin-right: 0px;
+    height: 23px;
+    width: 108px;
+}
+.navbar-brand{
+    margin-left: 20px;
+    margin-right: -10px;
+    padding:0px;
+}
+.bg-img {
+    background-size: 300px 100px;
+    background: url(women-searching.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 13%;
+   /*object-position: center top;
+   object-fit: center top;*/
+   color: white;
+}
+.img-content{
+    width: 600px;
+    height: 300px;
+   margin-left: 20px;
+   padding: 50px;
+   
+}
+
+.customer-support {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.start-{
+    border-radius: 0;
+    background-color: #0078d4;
+    padding: 5px;
+    width: 100px;
+}
+.btn:hover{
+    background-color: #36195a;
+}
+.offer{
+    margin-left: 3px;
+    text-decoration: underline white;
+}
+.money{
+    width: 262px;
+    height: 190px;
+    float: right;
+    margin-right: 80px;
+    margin-top: -20px;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: -30px;
+    margin-bottom: -5px;
+  }
+  .up {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .search-network{
+      width: 100%;
+      height: 312px;
+      background-color: #1C2E4A;
+      color: white;
+      text-align: center;
+      margin-top: 60px;
+      
+      
+  }
+  .search-network h2{
+    margin-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+   
+  }
+  
+  .boxes{
+    display: flex;
+   
+}
+.box-1{
+    width: 23%;
+    height: 120px;
+    margin-left: 50px;
+    margin-right: 5px;
+    background-color: rgba(0,120,212,.5);
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.box-2{
+    width: 23%;
+    height: 120px;
+    background-color: rgba(0,120,212,.5);
+    margin-right: 6px;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+.box-3{
+    width: 23%;
+    height: 120px;
+    background-color: rgba(0,120,212,.5);
+    margin-right: 5px;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+.box-4{
+    width: 23%;
+    height: 120px;
+    background-color: rgba(0,120,212,.5);
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: left;
+
+}
+.box-1:hover{
+    background-color:#0078d4 ;
+    width: 23%;
+    height: 120px;
+
+}
+.box-2:hover{
+    background-color:#0078d4 ;
+    width: 23%;
+    height: 120px;
+
+}
+.box-3:hover{
+    background-color:#0078d4 ;
+    width: 23%;
+    height: 120px;
+
+}
+.box-4:hover{
+    background-color:#0078d4 ;
+    width: 23%;
+    height: 120px;
+}
+.Sign-up{
+    text-align: left;
+    margin: 60px 0px 0 60px;
+    opacity: 70%;
+}
+.main-sign{
+    display: flex;
+}
+.sign{
+
+text-align: left;
+    /* margin: 150px 0px 0px 200px; */
+    opacity: 70%;
+    padding: 30px;
+   
+    margin: 100px 0px 0px 160px;
+    text-align: center;
+    
+}
+.sign a{
+    color: blue;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 30px;
+    margin: 10px 0px 0px 0px;
+}
+.footer-box{
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding-top: 30px;
+    width: 100%;
+    height: 72px;
+    text-align: center;
+}
+
+.footer-box li{
+    /* padding: 10px; */
+    font-size: 11.5px;
+    opacity: 80%;
+    text-align: center;
+    
+
+}
+.nav-item-1{
+    margin: 20px 525px 0 30px;
+    color: black;
+    font-size: 12px;
+    padding:10px 10px 0px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-item-{
+    margin: 10px 10px 0 10px;
+    color: black;
+    font-size: 12px;
+    padding:30px 10px 0px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-box a:hover{
+    text-decoration: underline;
+    border-bottom: 1px solid  black;
+ 
+}
